@@ -17,7 +17,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 body { font-family: "Lucida Grande", "Arial", sans-serif; font-size: 100%; line-height: 1.6em; }
 
-a { color: #70ebf1; }
+a { color: #295799; }
 
 h1 { font-size: 2em; margin: 1em 0; }
 
@@ -25,8 +25,9 @@ h1 { font-size: 2em; margin: 1em 0; }
 
 nav { background-color: #c4e1ed; border-right: 1px solid #ebebf0; box-shadow: -2px 0 10px gray inset; height: 100%; left: 0; padding: 1em; position: fixed; top: 0; width: 11em; }
 nav h1 { font-size: 0.95em; }
+nav h2 { font-weight: 600; margin: 1.4em 0 0.8em; }
 nav h5 { font-size: 0.85em; line-height: 1.4em; }
-nav ol { font-size: 0.85em; list-style-type: decimal; margin-top: 2em; margin-left: 1.5em; }
+nav ol { font-size: 0.85em; list-style-type: decimal; margin-left: 1.5em; }
 
 section { border-bottom: 1px solid #ebebf0; margin: 1.25em 0 2.5em; }
 section h1 { font-size: 1.3em; font-weight: bold; }

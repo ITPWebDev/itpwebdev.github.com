@@ -1,6 +1,6 @@
 @import "reset";
 
-$link: #70EBF1;
+$link: #295799;
 
 $subtle: rgb(235, 235, 240);
 
@@ -44,6 +44,11 @@ nav {
         font-size: 0.95em;
     }
     
+    h2 {
+        font-weight: 600;
+        margin: 1.4em 0 0.8em;
+    }
+    
     h5 {
         font-size: 0.85em;
         line-height: 1.4em;
@@ -52,7 +57,6 @@ nav {
     ol {
         font-size: 0.85em;
         list-style-type: decimal;
-        margin-top: 2em;
         margin-left: 1.5em;
     }
     
