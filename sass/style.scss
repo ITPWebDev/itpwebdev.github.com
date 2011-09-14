@@ -1,0 +1,70 @@
+@import "reset";
+
+$link: #70EBF1;
+
+$subtle: rgb(235, 235, 240);
+
+html {
+    
+}
+
+body {
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 100%;
+    line-height: 1.6em;
+}
+
+a {
+    color: $link;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+#wrapper {
+    margin: 0em 1em 1em 15em;
+    padding: 1em 0 0 0;
+    width: 37.5em; /* 600 / 16 */
+}
+
+nav {
+    background-color: rgb(196,225,237);
+    border-right: 1px solid $subtle;
+    box-shadow: -2px 0 10px rgb(128,128,128) inset;
+    height: 100%;
+    left: 0;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 11em;
+    
+    h1 {
+        font-size: 0.95em;
+    }
+    
+    h5 {
+        font-size: 0.85em;
+        line-height: 1.4em;
+    }
+    
+    ol {
+        font-size: 0.85em;
+        list-style-type: decimal;
+        margin-top: 2em;
+        margin-left: 1.5em;
+    }
+    
+}
+
+section {
+    
+    border-bottom: 1px solid $subtle;
+    margin: 1.25em 0 2.5em;
+    
+    h1 {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+}
