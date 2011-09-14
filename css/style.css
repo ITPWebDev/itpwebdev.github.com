@@ -19,7 +19,13 @@ body { font-family: "Lucida Grande", "Arial", sans-serif; font-size: 100%; line-
 
 a { color: #295799; }
 
+em { font-style: italic; }
+
 h1 { font-size: 2em; margin: 1em 0; }
+
+p { margin: 1em 0; }
+
+pre { background-color: #ebebf0; font-family: "Monaco", monospace; font-size: 0.9em; line-height: 1.2em; padding: 1em; }
 
 #wrapper { margin: 0em 1em 1em 15em; padding: 1em 0 0 0; width: 37.5em; /* 600 / 16 */ }
 
@@ -31,3 +37,6 @@ nav ol { font-size: 0.85em; list-style-type: decimal; margin-left: 1.5em; }
 
 section { border-bottom: 1px solid #ebebf0; margin: 1.25em 0 2.5em; }
 section h1 { font-size: 1.3em; font-weight: bold; }
+section h2 { font-size: 1.2em; font-weight: bold; }
+section h3 { font-size: 1.1em; margin: 1.25em 0 0.5em; }
+section ul { list-style-type: disc; }

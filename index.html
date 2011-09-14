@@ -5,34 +5,79 @@
 </head>
 <body>
   <div id="wrapper">
-    
+
     <nav>
-      
+
       <h1>ITP Web Dev Workshops</h1>
-      
+
       <h5>Companion site to weekly two-hour workshops from the basics of HTML to running Ruby apps.</h5>
-      
-      
+
       <h2>Classes</h2>
       <ol>
-        <li>HTML & CSS</li>
-        <li>jQuery & DOM</li>
+        <li><a href="#class1">HTML & CSS</a></li>
+        <li><a href="#class2">jQuery & DOM</a></li>
       </ol>
-      
-      <h2><a href="#">Resources</a></h2>
+
+      <h2><a href="#resources">Resources</a></h2>
     </nav>
-    
+
   	<h1>ITP Web Dev Workshop</h1>
   	<p>Coming soon.</p>
-  	
-  	<section>
-  	  <h1>#1 HTML&CSS</h1>
+
+  	<section id="class1">
+  	  <h1>#1 HTML & CSS</h1>
+
+      <h2>HTML</h2>
+
+  	  <p>HTML, <em>HyperText Markup Language</em>, is exactly that, a markup language for text on internet. A markup language is a computer language to make text and media readable by a computer.</p>
+
+  	  <p>A word processor like Pages or Word is doing its own markup in the background to give you nice paragraphs and fonts and colors. Copying and pasting from a word processor does not retain this markup and anyway Pages and Word use proprietary markup, so you can't have it.</p>
+
+  	  <p>HTML is made up of text and media enclosed in <em>elements</em> forming a tree structure, which is mimicked in text through the convention of tabbing.</p>
+
+  	  <pre>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;HELLO WORLD&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;h1&gt;I'm hungry.&lt;/h1&gt;
+      &lt;p&gt;So give me some food.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+
+      <p>Elements need to be closed with a <code>&lt;/p&gt;</code>. Elements can be nested, enclosed within other elements.</p>
+
+      <p>It's really best to show you through an example.</p>
+
+      <h3>To Cover</h3>
+      <ul>
+        <li>Document basics: title, DOCTYPE etc.</li>
+        <li>Organization, header, nav, section, article, div, aside, footer</li>
+        <li>Hierarchy rules</li>
+        <li>IDs and Classes, foreshadowing</li>
+      </ul>
+
 	  </section>
-	  
-	  <section>
+
+	  <section id="class2">
 	   <h1>#2 jQuery & The Document Object Model</h1>
 	  </section>
-  	
+
+  	<section id="resources">
+  	  <h1>Resources</h1>
+
+  	  <h2>HTML</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en/HTML">Mozilla HTML Reference</a> - List of HTML elements and attributes.</li>
+        <li><a href="http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariHTMLRef/Introduction.html#//apple_ref/doc/uid/TP40002049">Webkit HTML Reference</a> - List of HTML elements and attributes.</li>
+        <li><a href="http://diveintohtml5.org/">Dive Into HTML5</a> - Mark Pilgrim's thorough walkthrough of what is new with HTML5 and how to use it. Gets in to CSS and Javascript pretty fast.</li>
+      </ul>
+
+	  </section>
+
 	</div>
 </body>
 </html>
